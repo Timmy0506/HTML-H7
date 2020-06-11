@@ -12,7 +12,7 @@ h3 {
 .banner {
     height: 400px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid aquamarine;
     background-color: aquamarine;
     color: white;
     font-weight: bold;
@@ -80,5 +80,38 @@ p {
     }
 }
 
+.row1 {
+    padding: 30px;
+    background-color: wheat;
+}
+
+.Saxofoon, .Trompet {
+    float: right;
+    width: 31%;
+    padding-right: 30px;
+    position: relative;
+    font-size: 20px;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .Saxofoon, .Trompet {
+        width: 100%;
+    }
+}
+
+footer {
+    height: 200px;
+    background-color: grey;
+    color: white;
+    line-height: 10px;
+    text-align: left;
+}
+ 
 
 
