@@ -53,18 +53,24 @@ p {
     width: 360px;
 }
 .row {
-    padding: 30px;
+    padding: 10px;
     background-color: wheat;
 }
 
+
+
+
 .Nieuws, .Drums, .Gitaars {
+    display: block;
     float: left;
-    width: 31%;
-    padding-left: 30px;
+    margin: 30px;  
+    width: 300px;
+    padding: 30px;
     position: relative;
-    
     font-size: 20px;
 }
+
+
 
 
 .row:after {
@@ -81,14 +87,16 @@ p {
 }
 
 .row1 {
-    padding: 30px;
+    padding: 10px;
     background-color: wheat;
 }
 
 .Saxofoon, .Trompet {
-    float: right;
-    width: 31%;
-    padding-right: 30px;
+    display: block;
+    float: left;
+    margin: 30px;   
+    width: 300px;
+    padding: 30px;
     position: relative;
     font-size: 20px;
 }
@@ -108,10 +116,16 @@ p {
 footer {
     height: 200px;
     background-color: grey;
+    text-align: left;
+    padding: 20px;
+    font-size: 10px;
     color: white;
     line-height: 10px;
-    text-align: left;
+    
+
 }
+
+
  
 
 
