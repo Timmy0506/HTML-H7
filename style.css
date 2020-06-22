@@ -1,9 +1,45 @@
 body {
-    background-color: wheat;
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
     font-family: 'Raleway', sans-serif;
 }
 
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(205, 255, 228);
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    background-color: grey;
+    padding: 10px;
+    padding-left: 15px;
+    border-top: 2px solid white;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+h3 {
+    color: indianred;
+    font-size: 25px;
+
+}
+
+section {
+    padding: 20px;
+}
+
+img#logo {
+    width: 320px;
 }
