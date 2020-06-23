@@ -1,8 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
 body {
     padding: 0px;
     margin: 0px;
-    background-color: bisque;
+    background-color: white;
     font-family: 'Raleway', sans-serif;
+}
+
+div#page {
+    background-color: bisque;
 }
 
 
@@ -30,16 +42,83 @@ li a {
     font-weight: 700;
 }
 
+@media all and (min-width:550px) {
+    ul {
+        background-color: grey;
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
 h3 {
     color: indianred;
     font-size: 25px;
 
 }
 
-section {
+section, footer {
     padding: 20px;
 }
+
+@media all and (min-width:550px) {
+    section#nieuws {
+        float: left;
+        width: 40%;
+    }
+    section#instruments {
+        float: right;
+        width: 60%;
+    }
+}
+
+
+@media all and (min-width:900px) {
+    section#nieuws {
+        float: left;
+        width: 30%;
+    }
+    section#instruments {
+        float: right;
+        width: 70%;
+    }
+    
+    article {
+        display: inline-block;
+        width: 47%;
+        margin-right: 20px;
+    }
+
+    article:nth-child(even) {
+        margin-right: 0px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    div#page {
+        width: 1200px;
+        margin: auto;
+        
+
+    }
+}
+ 
+
 
 img#logo {
     width: 320px;
 }
+
+footer {
+    background-color: grey;
+    color: white;
+    clear: both;
+}
+
+footer h3 {
+    color: white;
+}
+
+
